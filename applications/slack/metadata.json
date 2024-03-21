@@ -1,0 +1,52 @@
+{
+  "create": {
+    "form": {
+      "fields": [
+        {
+          "id": "application-name",
+          "ariaLabel": "Application Name",
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "My App",
+          "initialValue": "",
+          "data-componentid": "spa-create-wizard-application-name",
+          "maxLength": "50",
+          "minLength": "3",
+          "width": "13"
+        },
+        {
+          "id": "authorized-redirect-urls",
+          "ariaLabel": "Authorized redirect URLs",
+          "type": "url",
+          "name": "inboundProtocolConfiguration.oidc.callbackURLs",
+          "label": "Authorized redirect URLs",
+          "placeholder": "https://myapp.io/login",
+          "required": true,
+          "data-componentid": "spa-create-wizard-redirect-urls",
+          "maxLength": "100",
+          "minLength": "3",
+          "width": "13",
+          "validations": [
+            {
+              "rule": "isValidURL",
+              "errorMessage": "Invalid URL. It must start with 'https://'"
+            }
+          ]
+        }
+      ]
+    },
+    "isApplicationSharable": true,
+    "guide": [
+      {
+        "content": "#### Name\nA unique name to identify your application.\n\nFor example, My App\n\n---\n\n#### Authorized Redirect URLs\nThe URL to which the authorization code is sent upon authentication and where the user is redirected upon logout.\n\nFor example, [https://myapp.io/login](https://myapp.io/login)\n\n---\n\n#### Allow sharing with sub-organizations\n\nIf enabled, it will share this application with all or any selected sub-organizations that belong to your root organization.",
+        "contentType": "markdown"
+      }
+    ],
+    "defaultSample": {
+      "allowedOrigins": ["https://localhost:3000"],
+      "callbackURLs": ["https://localhost:3000"]
+    }
+  }
+}

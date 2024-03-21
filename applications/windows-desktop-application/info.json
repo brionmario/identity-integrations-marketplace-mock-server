@@ -1,0 +1,33 @@
+{
+  "id": "windows-desktop-application",
+  "name": "Windows",
+  "description": "Applications developed to target windows desktops.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/windows-desktop-template.svg",
+  "displayOrder": 5,
+  "tags": ["dotNet", "oidc"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/windows-desktop-application",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    },
+    {
+      "key": "supportedTechnologies",
+      "value": [
+        {
+          "displayName": ".NET",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/912px-Microsoft_.NET_logo.svg.png?20200524040737"
+        },
+        {
+          "displayName": "WPF",
+          "logo": "https://www.ritechpune.com/backend/courseicon/WPFLogo.png"
+        }
+      ]
+    }
+  ]
+}

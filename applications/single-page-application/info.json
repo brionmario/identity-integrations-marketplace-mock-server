@@ -1,0 +1,49 @@
+{
+  "id": "single-page-application",
+  "name": "Single-Page Application",
+  "description": "Web applications that perform user interface logic in a web browser.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/spa-template.svg",
+  "displayOrder": 0,
+  "tags": ["react", "angular", "javascript", "oidc"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/single-page-application",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    },
+    {
+      "key": "supportedTechnologies",
+      "value": [
+        {
+          "displayName": "Angular",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+        },
+        {
+          "displayName": "Vue.js",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
+        },
+        {
+          "displayName": "React",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
+        },
+        {
+          "displayName": "Meteor",
+          "logo": "https://cdn.worldvectorlogo.com/logos/meteor-icon.svg"
+        },
+        {
+          "displayName": "Backbone",
+          "logo": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/backbone-js-icon.png"
+        },
+        {
+          "displayName": "Ember.js",
+          "logo": "https://blog.emberjs.com/images/logos/e-icon.png"
+        }
+      ]
+    }
+  ]
+}

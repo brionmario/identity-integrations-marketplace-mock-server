@@ -1,0 +1,69 @@
+{
+    "id": "single-page-application",
+    "name": "Single-Page Application",
+    "description": "Web applications that perform user interface logic in a web browser.",
+    "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/spa-template.svg",
+    "authenticationProtocol": "oidc",
+    "tags": ["react", "angular", "javascript", "oidc"],
+    "category": "DEFAULT",
+    "displayOrder": 0,
+    "payload": {
+        "name": "",
+        "advancedConfigurations": {
+            "discoverableByEndUsers": false,
+            "skipLogoutConsent": true
+        },
+        "authenticationSequence": {
+            "type": "DEFAULT",
+            "steps": [
+                {
+                    "id": 1,
+                    "options": [
+                        {
+                            "idp": "LOCAL",
+                            "authenticator": "basic"
+                        }
+                    ]
+                }
+            ]
+        },
+        "claimConfiguration":{
+            "dialect":"LOCAL",
+            "requestedClaims": [
+                {
+                    "claim": {
+                        "uri":"http://wso2.org/claims/username"
+                    }
+                }
+            ]
+        },
+        "inboundProtocolConfiguration": {
+            "oidc": {
+                "accessToken": {
+                    "applicationAccessTokenExpiryInSeconds": 3600,
+                    "bindingType": "sso-session",
+                    "revokeTokensWhenIDPSessionTerminated": true,
+                    "type": "Default",
+                    "userAccessTokenExpiryInSeconds": 3600,
+                    "validateTokenBinding": false
+                },
+                "grantTypes": [
+                    "authorization_code",
+                    "refresh_token"
+                ],
+                "allowedOrigins": [],
+                "callbackURLs": [],
+                "pkce": {
+                    "mandatory": true,
+                    "supportPlainTransformAlgorithm": false
+                },
+                "publicClient": true,
+                "refreshToken": {
+                    "expiryInSeconds": 86400,
+                    "renewRefreshToken": true
+                }
+            }
+        },
+        "templateId": "single-page-application"
+    }
+}

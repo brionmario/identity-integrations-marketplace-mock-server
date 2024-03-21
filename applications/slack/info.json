@@ -1,0 +1,20 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "description": "Give users quick low effort access to Slack through Asgardeo.",
+  "image": "https://cdn.auth0.com/marketplace/catalog/content/assets/creators/slack/slack-avatar.png",
+  "displayOrder": 5,
+  "tags": ["sso"],
+  "category": "COLLABORATION",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/slack",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    }
+  ]
+}

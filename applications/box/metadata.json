@@ -1,0 +1,26 @@
+{
+  "create": {
+    "guide": [
+      {
+        "content": "### The Box social connection allows users to log in to your application using their Box profile.\n\nBy default, Auth0 automatically syncs user profile data with each user login, thereby ensuring that changes made in the connection source are automatically updated in Auth0. Optionally, you can [disable user profile data synchronization](https://auth0.com/docs/users/configure-connection-sync-with-auth0) to allow for updating profile attributes from your application.",
+        "contentType": "markdown"
+      },
+      {
+        "content": "## Prerequisites\n\nBefore you begin, [sign up for a Box Developer account](https://developers.box.com/).",
+        "contentType": "markdown"
+      },
+      {
+        "content": "## Set up app in Box\n\nSet up an app using Box's [Custom Apps: Setup with OAuth 2.0](https://developer.box.com/guides/applications/custom-apps/oauth2-setup/) documentation. During this process, Box will generate a **Client ID** and **Client Secret** for your application; make note of these.\n\nWhile setting up your app, use the following settings:\n\n| Field           | Value to Provide                    |\n| --------------- | ----------------------------------- |\n| Redirect URI    | `https://YOUR_DOMAIN/login/callback` |\n| Application Scopes | Select the permissions you want to enable for this connection. |\n",
+        "contentType": "markdown"
+      },
+      {
+        "content": "### Find your Auth0 domain name\n\nIf your Auth0 domain name is not shown above and you are not using our custom domains feature, your domain name is your tenant name, your regional subdomain (unless your tenant is in the US region and was created before June 2020), plus `.auth0.com`. For example, if your tenant name were `exampleco-enterprises`, your Auth0 domain name would be `exampleco-enterprises.us.auth0.com` and your redirect URI would be `https://exampleco-enterprises.us.auth0.com/login/callback`. (If your tenant is in the US and was created before June 2020, then your domain name would be `https://exampleco-enterprises.auth0.com`.)\n\nIf you are using [custom domains](https://auth0.com/docs/custom-domains), your redirect URI will have the following format: `https://<YOUR CUSTOM DOMAIN>/login/callback`.",
+        "contentType": "markdown"
+      },
+      {
+        "content": "## Test connection\n\nYou're ready to [test your connection](https://auth0.com/docs/dashboard/guides/connections/test-connections-social).",
+        "contentType": "markdown"
+      }
+    ]
+  }
+}

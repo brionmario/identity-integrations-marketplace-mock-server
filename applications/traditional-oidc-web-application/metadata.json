@@ -1,0 +1,10 @@
+{
+  "create": {
+    "guide": [
+      {
+        "content": "#### Name\nA unique name to identify your application. For example: `My App`\n\n---\n\n#### Authorized Redirect URLs\nThe URL to which the authorization code is sent upon authentication and where the user is redirected upon logout. For example: https://myapp.io/login",
+        "contentType": "markdown"
+      }
+    ]
+  }
+}

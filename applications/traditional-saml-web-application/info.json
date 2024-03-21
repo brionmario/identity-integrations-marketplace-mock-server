@@ -1,0 +1,45 @@
+{
+  "id": "traditional-saml-web-application",
+  "name": "Traditional SAML Web Application",
+  "description": "Regular web application that uses redirection within the browser built with SAML protocol.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/traditional-saml-web-application-template.png",
+  "displayOrder": 1,
+  "tags": ["oidc", "java", "dotNet"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/traditional-saml-web-application",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    },
+    {
+      "key": "supportedTechnologies",
+      "value": [
+        {
+          "displayName": "Java EE",
+          "logo": "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+        },
+        {
+          "displayName": ".NET",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/912px-Microsoft_.NET_logo.svg.png?20200524040737"
+        },
+        {
+          "displayName": "Python",
+          "logo": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+        },
+        {
+          "displayName": "PHP",
+          "logo": "https://seeklogo.com/images/P/php-logo-ADE513E748-seeklogo.com.png"
+        },
+        {
+          "displayName": "Perl",
+          "logo": "https://cdn.worldvectorlogo.com/logos/perl-programming-language.svg"
+        }
+      ]
+    }
+  ]
+}

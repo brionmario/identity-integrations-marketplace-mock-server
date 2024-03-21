@@ -1,0 +1,10 @@
+{
+  "create": {
+    "guide": [
+      {
+        "content": "#### Name\nA unique name to identify your application.\nFor example: `My App`\n\n---\n\n#### Issuer\nThe **saml:Issuer** element that contains the unique identifier of the application. The value added here should be specified in the SAML authentication request sent from the client application.\nFor example: my-app.com\n\n---\n\n#### Assertion Consumer Service URLs\nThe URLs to which the browser is redirected to upon successful authentication. Also known as the Assertion Consumer Service (ACS) URL of the service provider.\nFor example: [https://my-app.com/home.jsp](https://my-app.com/home.jsp)",
+        "contentType": "markdown"
+      }
+    ]
+  }
+}

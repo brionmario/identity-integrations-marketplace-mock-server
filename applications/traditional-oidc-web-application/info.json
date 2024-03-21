@@ -1,0 +1,53 @@
+{
+  "id": "traditional-oidc-web-application",
+  "name": "Traditional OIDC Web Application",
+  "description": "Regular web application that uses redirection within the browser built with OpenID Connect protocol.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/traditional-oidc-web-application-template.png",
+  "displayOrder": 1,
+  "tags": ["oidc", "java", "dotNet"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/traditional-oidc-web-application",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    },
+    {
+      "key": "supportedTechnologies",
+      "value": [
+        {
+          "displayName": "Java EE",
+          "logo": "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+        },
+        {
+          "displayName": ".NET",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/912px-Microsoft_.NET_logo.svg.png?20200524040737"
+        },
+        {
+          "displayName": "Next.js",
+          "logo": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+        },
+        {
+          "displayName": "Remix",
+          "logo": "https://seeklogo.com/images/R/remix-logo-862D8B1019-seeklogo.com.png"
+        },
+        {
+          "displayName": "Node.js",
+          "logo": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+        },
+        {
+          "displayName": "Python",
+          "logo": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+        },
+        {
+          "displayName": "Spring",
+          "logo": "https://cdn.worldvectorlogo.com/logos/spring-3.svg"
+        }
+      ]
+    }
+  ]
+}

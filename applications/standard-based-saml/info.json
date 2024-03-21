@@ -1,0 +1,20 @@
+{
+  "id": "standard-based-saml-application",
+  "name": "Standard-Based SAML",
+  "description": "Applications built using the SAML standard protocol.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/standard-based-saml-template.png",
+  "displayOrder": 4,
+  "tags": ["saml"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/standard-based-saml",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    }
+  ]
+}

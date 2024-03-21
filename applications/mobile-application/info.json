@@ -1,0 +1,45 @@
+{
+  "id": "mobile-application",
+  "name": "Mobile Application",
+  "description": "Applications developed to target mobile devices.",
+  "image": "{{CONSOLE_BASE_URL}}/resources/applications/assets/images/mobile-application-template.svg",
+  "displayOrder": 4,
+  "tags": ["android", "ios", "oidc"],
+  "category": "DEFAULT",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/mobile-application",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Asgardeo",
+        "logo": "https://cdn.statically.io/gh/brionmario/oxygen-ui/main/examples/multi-brand-identity/public/assets/brands/asgardeo/images/asgardeo-logo.svg"
+      }
+    },
+    {
+      "key": "supportedTechnologies",
+      "value": [
+        {
+          "displayName": "Flutter",
+          "logo": "https://www.svgrepo.com/show/353751/flutter.svg"
+        },
+        {
+          "displayName": "Android",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/1745px-Android_robot.svg.png"
+        },
+        {
+          "displayName": "Swift",
+          "logo": "https://i.pinimg.com/originals/8f/50/63/8f50630ae0e1775196e4c270c573ce67.png"
+        },
+        {
+          "displayName": "React Native",
+          "logo": "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+        },
+        {
+          "displayName": "Iconic",
+          "logo": "https://images.prismic.io/ionicframeworkcom/66cfdbef-e59d-463a-8e24-12cb233e9d97_ionic+logo+blue.png?auto=compress,format"
+        }
+      ]
+    }
+  ]
+}

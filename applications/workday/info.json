@@ -1,0 +1,19 @@
+{
+  "id": "workday",
+  "name": "Workday",
+  "description": "Gives organizations of all sizes the power to adapt through finance, HR, planning, spend management and more.",
+  "image": "https://iili.io/bxyjB1.md.png",
+  "displayOrder": 5,
+  "tags": ["sso"],
+  "category": "FINANCE_AND_HR",
+  "type": "applications",
+  "self": "/t/brionmario/api/server/v1/extensions/applications/workday",
+  "additionalProperties": [
+    {
+      "key": "publisher",
+      "value": {
+        "displayName": "Workday"
+      }
+    }
+  ]
+}
